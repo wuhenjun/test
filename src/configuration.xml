@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="GBK"?>
+<system>
+	<category name="system" description="系统相关配置">
+       <item name="isOracleSequence" value="1" description="使用oracle生成序列" />
+       <item name="filterPwdField" value="password|idno|id_no" description="敏感字段不在日志中输出，多个字段用|分隔"/>
+       <item name="isAddLog" value="1" description="是否将日志写入日志表 0:不需要 1:需要" />
+    </category>
+    <category name="crm" description="金证CRM网关配置">
+        <item name="isUsed" value="1" description="是否使用(0:不使用1:使用)" />
+		<item name="gateway" value="127.0.0.1:40193" description="网关列表，可以指定多个，用|分隔开" />
+		<item name="scanInterval" value="20000" description="状态扫描间隔时间，单位毫秒" />
+	</category>
+	<category name="mid" description="金证MID网关配置">
+	    <item name="isUsed" value="1" description="是否使用(0:不使用1:使用)" />
+		<item name="gateway" value="172.18.20.165:9100" description="网关列表，可以指定多个，用|分隔开" />
+		<item name="scanInterval" value="20000" description="状态扫描间隔时间，单位毫秒" />
+		<item name="operType" value="1" description="操作渠道" />
+	</category>
+    <category name="midSocketPool" description="金证MID服务器socket连接池配置">
+         <item name="isUsed" value="1" description="是否使用连接池(0:不使用1:使用)" />
+         <item name="initialPoolSize" value="1" description="交易服务器socket连接池初始化池子的连接数" />
+         <item name="minPoolSize" value="1" description="交易服务器socket连接池最小连接数" />
+         <item name="maxPoolSize" value="1" description="交易服务器socket连接池最大连接数" />
+         <item name="acquireIncrement" value="1" description="交易服务器socket连接池每次增长的连接数" />
+    </category>
+    <category name="mall_upop" description="接入服务器查询银联">
+    	<item name="query_pay_url" value="https://gw.tenpay.com/gateway/normalorderquery.xml" description="财富通订单查询接口" />
+    	<item name="query_upop_url" value="http://www.thinkive.cn:8024/servlet/upop/IndexAction?function=QueryUpop" description="银联对账查询"/>
+    	<item name="pay_back_upop_url" value="http://www.thinkive.cn:8024/servlet/upop/IndexAction?function=QuickPayBack" description="银联后台退款"/>
+    </category>
+</system>

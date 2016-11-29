@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="GBK"?>
+<!--
+##################################################################
+##                                                              ##
+##         用于配置服务器需要动态加载的功能模块                 ##
+##                                                              ##
+##                                                              ##
+##         id     :  业务功能编号                               ##
+##         class  :  业务功能的具体实现类                       ##
+##         desc   :  功能描述信息                               ##
+##                                                              ##
+##################################################################
+-->
+<functions>
+	<!-- 业务功能 
+	<function id="902901">
+		<class>com.thinkive.mall.business.Function9020121</class>
+		<desc>修改基金产品信息</desc>
+	</function>-->
+	<function id="902936">
+		<class>com.thinkive.mall.business.Function902936</class>
+		<desc>查询资讯产品详细信息</desc>
+	</function>
+	<function id="902937">
+		<class>com.thinkive.mall.business.Function902937</class>
+		<desc>修改资讯产品信息</desc>
+	</function>
+	<function id="902942">
+		<class>com.thinkive.mall.business.Function902942</class>
+		<desc>查询服务产品详细信息</desc>
+	</function>
+	<function id="902939">
+		<class>com.thinkive.mall.business.Function902939</class>
+		<desc>新增服务产品</desc>
+	</function>
+	<function id="902924">
+		<class>com.thinkive.mall.business.Function902924</class>
+		<desc>删除服务产品</desc>
+	</function>
+	<!-- <function id="902907">
+		<class>com.thinkive.mall.business.Function9020404</class>
+		<desc>删除服务产品</desc>
+	</function> -->
+	<function id="902941">
+		<class>com.thinkive.mall.business.Function902941</class>
+		<desc>修改服务产品</desc>
+	</function>
+	<function id="902940">
+		<class>com.thinkive.mall.business.Function902940</class>
+		<desc>查询服务产品</desc>
+	</function>
+	<function id="902943">
+		<class>com.thinkive.mall.business.Function902943</class>
+		<desc>修改服务产品属性</desc>
+	</function>
+	<function id="902945">
+		<class>com.thinkive.mall.business.Function902945</class>
+		<desc></desc>
+	</function>
+	<function id="902947">
+		<class>com.thinkive.mall.business.Function902947</class>
+		<desc></desc>
+	</function>
+	<function id="902988">
+		<class>com.thinkive.mall.business.Function902988</class>
+		<desc>查询基金产品详细信息</desc>
+	</function>
+	<function id="902989">
+		<class>com.thinkive.mall.business.Function902989</class>
+		<desc>修改基金产品详细信息</desc>
+	</function>
+	<function id="902997">
+		<class>com.thinkive.mall.business.Function902997</class>
+		<desc>查询理财产品详细信息</desc>
+	</function>
+	<function id="902998">
+		<class>com.thinkive.mall.business.Function902998</class>
+		<desc>修改理财产品详细信息</desc>
+	</function>
+	<function id="902917">
+		<class>com.thinkive.mall.business.Function902217</class>
+		<desc>添加用户信息</desc>
+	</function>
+	<function id="902921">
+		<class>com.thinkive.mall.business.Function902921</class>
+		<desc>修改单条产品管理方及对应图片信息</desc>
+	</function>
+	<function id="902993">
+		<class>com.thinkive.mall.business.Function902993</class>
+		<desc>修改基金经理信息</desc>
+	</function>
+	<function id="902991">
+		<class>com.thinkive.mall.business.Function902991</class>
+		<desc>新增基金经理信息</desc>
+	</function>
+	<!-- <function id="902921">
+		<class>com.thinkive.mall.business.Function902525</class>
+		<desc>删除风险类型</desc>
+	</function>
+	<function id="902922">
+		<class>com.thinkive.mall.business.Function902561</class>
+		<desc>添加用户管理信息</desc>
+	</function> -->
+	<function id="902926">
+		<class>com.thinkive.mall.business.Function902926</class>
+		<desc>修改用户管理信息</desc>
+	</function>
+	<function id="902954">
+		<class>com.thinkive.mall.business.Function902954</class>
+		<desc>查询风险评测类型</desc>
+	</function>
+	<function id="902925">
+		<class>com.thinkive.mall.business.Function9021220</class>
+		<desc>查询风险评测类型</desc>
+	</function><!-- 
+	<function id="902926">
+		<class>com.thinkive.mall.business.Function9021221</class>
+		<desc>查询风险评测类型</desc>
+	</function> -->
+	<function id="902968">
+		<class>com.thinkive.mall.business.Function902968</class>
+		<desc>查询风险评测类型</desc>
+	</function>
+	<function id="902964">
+		<class>com.thinkive.mall.business.Function902964</class>
+		<desc>查询风险评测类型</desc>
+	</function>
+	<function id="902908">
+		<class>com.thinkive.mall.business.Function902908</class>
+		<desc>查询风险评测类型</desc>
+	</function>
+	
+	<function id="902909">
+		<class>com.thinkive.mall.business.Function902909</class>
+		<desc>查询风险评测类型</desc>
+	</function>
+	<function id="9029031">
+		<class>com.thinkive.mall.business.Function9029031</class>
+		<desc>删除产品组合推荐</desc>
+	</function>
+	<function id="9029032">
+		<class>com.thinkive.mall.business.Function9029032</class>
+		<desc>添加资讯产品</desc>
+	</function>
+	<function id="9029046">
+		<class>com.thinkive.mall.business.Function9029046</class>
+		<desc>对导入文件里的资讯产品数据进行插入</desc>
+	</function>
+	<function id="9029047">
+		<class>com.thinkive.mall.business.Function9029047</class>
+		<desc>删除资讯产品</desc>
+	</function>
+	<function id="9029034">
+		<class>com.thinkive.mall.business.Function9029034</class>
+		<desc>添加风险测试试题信息</desc>
+	</function>
+	<function id="9029036">
+		<class>com.thinkive.mall.business.Function9029036</class>
+		<desc>查询风险测试试题信息</desc>
+	</function>
+	<function id="9029037">
+		<class>com.thinkive.mall.business.Function9029037</class>
+		<desc>编辑风险测试试题信息</desc>
+	</function>
+	<function id="9029038">
+		<class>com.thinkive.mall.business.Function9029038</class>
+		<desc>删除风险测试试题信息</desc>
+	</function>
+	<function id="902950">
+		<class>com.thinkive.mall.business.Function902950</class>
+		<desc>添加风险测试试题类型</desc>
+	</function>
+	<function id="902951">
+		<class>com.thinkive.mall.business.Function902951</class>
+		<desc>查询风险测试试题类型</desc>
+	</function>
+	<function id="902952">
+		<class>com.thinkive.mall.business.Function902952</class>
+		<desc>修改风险测试试题类型</desc>
+	</function>
+	
+	<function id="9029050">
+		<class>com.thinkive.mall.business.CheckOrder</class>
+		<desc>定时检测非金融订单是否提交成功</desc>
+	</function>
+	
+	<function id="9029056">
+		<class>com.thinkive.mall.business.Function9029056</class>
+		<desc>新增产品管理方</desc>
+	</function>
+	
+	<function id="9029073">
+		<class>com.thinkive.mall.business.Function9029073</class>
+		<desc>新增三方存管</desc>
+	</function>
+	
+	<function id="9029074">
+		<class>com.thinkive.mall.business.Function9029074</class>
+		<desc>更新三方存管</desc>
+	</function>
+	<function id="903106">
+		<class>com.thinkive.mall.business.Function903106</class>
+		<desc>发送预约成功短信</desc>
+	</function>
+	<function id="903107">
+		<class>com.thinkive.mall.business.Function903107</class>
+		<desc></desc>
+	
+	<function id="903108">
+		<class>com.thinkive.mall.business.Function903108</class>
+		<desc></desc>
+	</function>
+	<!-- <function id="9029057">
+		<class>com.thinkive.mall.business.Function9029057</class>
+		<desc>删除产品管理方</desc>
+	</function> -->
+	<!-- 业务功能 -->
+</functions>

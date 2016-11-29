@@ -1,0 +1,94 @@
+package com.thinkive.mall.business;
+
+import java.util.Arrays;
+import java.util.Date;
+
+import org.apache.log4j.Logger;
+
+import com.thinkive.base.jdbc.DataRow;
+import com.thinkive.base.service.SequenceGenerator;
+import com.thinkive.base.util.DateHelper;
+import com.thinkive.base.util.RandomHelper;
+import com.thinkive.base.util.StringHelper;
+import com.thinkive.base.util.security.SHA512;
+import com.thinkive.mall.crm.SmsSender;
+import com.thinkive.mall.service.ReserveService;
+import com.thinkive.mall.service.UserService;
+import com.thinkive.server.BaseFunction;
+import com.thinkive.server.InvokeException;
+import com.thinkive.server.ResultVo;
+
+/**
+ * 描述: 审核完成后 发送短信
+ */
+
+public class Function903106 extends BaseFunction
+{
+    private static final Logger logger = Logger.getLogger(Function903106.class);
+	@Override
+	public ResultVo execute() throws InvokeException, Exception
+	{
+		ResultVo resultVo = new ResultVo();
+			try {
+				String id = getStrParameter("id");
+				logger.info("111111111111111获取的id为"+id);
+				 String[] ids= id.split(",");
+				 logger.info("11111111111111获取的id数组为"+Arrays.toString(ids));
+				 ReserveService service = new ReserveService();
+				 for(int i=0;i<ids.length;i++)
+				 {
+				     String  user_id = ids[i];
+				     DataRow user = service.findUserById(user_id);//查询复核状态为1的用户
+				     if(user != null)
+				     {
+				         String reserve_price = user.getString("reserve_price");
+				         String product_code = user.getString("product_code");//产品code
+				         String product_name  = user.getString("product_name");
+				         String fund_account = user.getString("fund_account");
+				         String mobile_phone = user.getString("mobile_phone");
+				         String check_time = user.getString("check_time");
+				         int num = Integer.parseInt(reserve_price)/10000;
+				         //开始销售时间
+				         //根据code查询出产品信息和开始销售时间，执行发短信
+				         DataRow product = service.findProductByCode(product_code);
+				         String start_buy_date = product.getString("start_buy_date");
+				         
+				         String right_end_date = product.getString("right_end_date");
+				          
+				         String message = "您已在"+check_time+"成功预约了我司联盟8号27期集合资产管理计划"+num+"万元的购买额度,该产品将于"+formatDate(start_buy_date)+"09:30通过中原证券财升网开始抢购,额度有限,先到先得。请您提前做好准备，或详询营业部工作人员";
+				        
+				         //发送短信动作
+				         logger.info("1111111111111111111编辑的短信内容为"+message);
+				         logger.info("1111111111111111111手机号码为:"+mobile_phone);
+				       
+		                  new SmsSender(mobile_phone, message).run();
+				         
+				     }
+				     else
+				     {
+				         //管理员把未通过审核的用户也点击了
+				         //我们不会向这个用户发送短信
+				     }
+				     
+				 }
+				    resultVo.setErrorMsg("发送成功");
+	               
+				 
+				
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				resultVo.setErrorMsg(e.getMessage());
+				resultVo.setErrorNo(-3);
+				e.printStackTrace();
+			}
+		return resultVo;
+	}
+	
+	private String formatDate(String date){
+	    String newDate = "";
+	    String chars[] = date.split("-");
+	    newDate = ""+chars[0]+"年"+chars[1]+"月"+chars[2]+"日";
+	    return newDate;
+	}
+	
+}

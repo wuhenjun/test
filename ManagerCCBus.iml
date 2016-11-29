@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="EclipseModuleManager">
+    <libelement value="jar://$MODULE_DIR$/lib/activation-1.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/ant-1.7.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/ant-launcher-1.7.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/asclient-1.2.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/avalon-framework-4.1.3.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/bcprov-jdk16-1.45.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/c3p0-0.9.1.2.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/catalina-1.0.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/catalina-servlets-ssi-1.0.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/classes12-10.2.0.3.0.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/commons-beanutils-1.7.0.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/commons-codec-1.5.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/commons-collections-3.2.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/commons-email-1.0.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/commons-io-1.4.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/commons-lang-2.6.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/commons-logging-1.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/dom4j-1.6.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/dumbster-1.6.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/ezmorph-1.0.2.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/httpclient-4.3.3.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/httpclient-cache-4.3.3.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/httpcore-4.3.2.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/httpmime-4.3.3.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/jsdk-23.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/json-lib-2.0-jdk15.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/junit-3.8.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/log4j-1.2.14.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/logkit-1.0.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/mail-1.4.7.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/MemCached-1.6.5.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/mybatis-3.2.7.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/mysql-connector-java-5.1.7-bin.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/oro-2.0.8.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/poi-3.9.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/thinkive-base-1.2.8.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/thinkive-gateway-server-1.0.5.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/thinkive-mybatis-util-1.0.0.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/thinkive-tbas-2.0.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/thinkive-tbas-test-2.0.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/thinkive-works-plat-bus-2.0.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/xml-apis-1.0.b2.jar!/" />
+    <src_description expected_position="0">
+      <src_folder value="file://$MODULE_DIR$/src" expected_position="0" />
+    </src_description>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="module-library">
+      <library name="activation-1.1.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/activation-1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="ant-1.7.1.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/ant-1.7.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="ant-launcher-1.7.1.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/ant-launcher-1.7.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="asclient-1.2.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/asclient-1.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="avalon-framework-4.1.3.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/avalon-framework-4.1.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="bcprov-jdk16-1.45.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/bcprov-jdk16-1.45.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="c3p0-0.9.1.2.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/c3p0-0.9.1.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="catalina-1.0.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/catalina-1.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="catalina-servlets-ssi-1.0.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/catalina-servlets-ssi-1.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="classes12-10.2.0.3.0.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/classes12-10.2.0.3.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-beanutils-1.7.0.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/commons-beanutils-1.7.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-codec-1.5.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/commons-codec-1.5.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-collections-3.2.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/commons-collections-3.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-email-1.0.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/commons-email-1.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-io-1.4.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/commons-io-1.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-lang-2.6.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/commons-lang-2.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-logging-1.1.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/commons-logging-1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dom4j-1.6.1.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/dom4j-1.6.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dumbster-1.6.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/dumbster-1.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="ezmorph-1.0.2.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/ezmorph-1.0.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="httpclient-4.3.3.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/httpclient-4.3.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="httpclient-cache-4.3.3.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/httpclient-cache-4.3.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="httpcore-4.3.2.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/httpcore-4.3.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="httpmime-4.3.3.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/httpmime-4.3.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jsdk-23.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/jsdk-23.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="json-lib-2.0-jdk15.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/json-lib-2.0-jdk15.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="junit-3.8.1.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/junit-3.8.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="log4j-1.2.14.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/log4j-1.2.14.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="logkit-1.0.1.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/logkit-1.0.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="mail-1.4.7.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/mail-1.4.7.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="MemCached-1.6.5.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/MemCached-1.6.5.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="mybatis-3.2.7.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/mybatis-3.2.7.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="mysql-connector-java-5.1.7-bin.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/mysql-connector-java-5.1.7-bin.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="oro-2.0.8.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/oro-2.0.8.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="poi-3.9.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/poi-3.9.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="thinkive-base-1.2.8.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/thinkive-base-1.2.8.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="thinkive-gateway-server-1.0.5.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/thinkive-gateway-server-1.0.5.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="thinkive-mybatis-util-1.0.0.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/thinkive-mybatis-util-1.0.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="thinkive-tbas-2.0.1.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/thinkive-tbas-2.0.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="thinkive-tbas-test-2.0.1.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/thinkive-tbas-test-2.0.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="thinkive-works-plat-bus-2.0.1.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/thinkive-works-plat-bus-2.0.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="xml-apis-1.0.b2.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/xml-apis-1.0.b2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration> 
+	<mappers>
+		<mapper resource="conf/plat/sql/sql_common_template.xml" />
+		<mapper resource="conf/plat/sql/sql_enums.xml" />
+		<mapper resource="conf/plat/sql/sql_log.xml" />
+		<mapper resource="conf/plat/sql/sql_plat_catalog.xml" />
+		<mapper resource="conf/plat/sql/sql_role.xml" />
+		<mapper resource="conf/plat/sql/sql_sequence.xml" />
+		<mapper resource="conf/plat/sql/sql_site_catalog.xml" />
+		<mapper resource="conf/plat/sql/sql_sys_config.xml" />
+		<mapper resource="conf/plat/sql/sql_user.xml" />
+		<mapper resource="conf/plat/sql/sql_sitetemplate.xml" />
+		<mapper resource="conf/plat/sql/sql_article.xml" />
+		<mapper resource="conf/plat/sql/sql_ad.xml" />
+	</mappers>
+</configuration>

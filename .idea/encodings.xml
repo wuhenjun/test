@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/com/thinkive/mall/business/CheckOrder.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/thinkive/mall/business/Function902217.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/thinkive/mall/business/Function902525.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/thinkive/mall/business/Function902924.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/thinkive/mall/business/Function902937.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/thinkive/mall/crm/SmsHelper.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/thinkive/mall/service/ProductPropertyService.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/thinkive/mall/service/UserService.java" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

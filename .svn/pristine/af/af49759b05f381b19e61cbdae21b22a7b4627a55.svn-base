@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="GBK"?>
+<!--
+##################################################################
+##                                                              ##
+##         用于配置服务器需要动态加载的功能模块                 ##
+##                                                              ##
+##                                                              ##
+##         id     :  业务功能编号                               ##
+##         class  :  业务功能的具体实现类                       ##
+##         desc   :  功能描述信息                               ##
+##                                                              ##
+##################################################################
+-->
+<functions>
+	<!-- 系统底层用到的功能号开始 -->
+	<function id="900900">
+		<class>com.thinkive.framework.business.SqlExecFunction</class>
+		<desc>执行SQL语句</desc>
+	</function>
+	<function id="900901">
+		<class>com.thinkive.framework.business.QuerySysCatalogFunction</class>
+		<desc>获取系统栏目信息</desc>
+	</function>
+	<function id="900902">
+		<class>com.thinkive.framework.business.AddPageFunction</class>
+		<desc>增加模板发布的页面信息</desc>
+	</function>
+	<function id="900903">
+		<class>com.thinkive.framework.business.QueryPageFunction</class>
+		<desc>获取模板发布的页面信息</desc>
+	</function>
+	<function id="900904">
+		<class>com.thinkive.framework.business.AddCatalogFuncFunction</class>
+		<desc>添加栏目拥有的功能号信息</desc>
+	</function>
+	<function id="900905">
+		<class>com.thinkive.framework.business.AddLogFunction</class>
+		<desc>添加系统日志</desc>
+	</function>
+	<!-- 系统底层用到的功能号结束 -->
+	<!-- 系统平台用到的功能号开始 -->
+	<function id="901918">
+		<class>com.thinkive.plat.function.Function901918</class>
+		<desc>效验用户登录</desc>
+	</function>
+	<function id="901921">
+		<class>com.thinkive.plat.function.Function901921</class>
+		<desc>修改用户登录次数</desc>
+	</function>
+	<function id="901922">
+		<class>com.thinkive.plat.function.Function901922</class>
+		<desc>效验用户密码</desc>
+	</function>
+	<function id="901923">
+		<class>com.thinkive.plat.function.Function901923</class>
+		<desc>修改用户密码</desc>
+	</function>
+	<function id="901900">
+		<class>com.thinkive.plat.function.Function901900</class>
+		<desc>查询需要验证登录的所有功能号</desc>
+	</function>
+	<function id="901901">
+		<class>com.thinkive.plat.function.Function901901</class>
+		<desc>查询系统栏目树</desc>
+	</function>
+	<function id="901938">
+		<class>com.thinkive.plat.function.Function901938</class>
+		<desc>管理系统栏目树</desc>
+	</function>
+	<function id="901912">
+		<class>com.thinkive.plat.function.Function901912</class>
+		<desc>新建用户</desc>
+	</function>
+	<function id="901915">
+		<class>com.thinkive.plat.function.Function901915</class>
+		<desc>新建用户</desc>
+	</function>
+	<function id="901913">
+		<class>com.thinkive.plat.function.Function901913</class>
+		<desc>删除用户</desc>
+	</function>
+	<function id="901917">
+		<class>com.thinkive.plat.function.Function901917</class>
+		<desc>修改用户密码</desc>
+	</function>
+	<function id="901991">
+		<class>com.thinkive.plat.function.Function901991</class>
+		<desc>添加站点栏目</desc>
+	</function>
+	<function id="901995">
+		<class>com.thinkive.plat.function.Function901995</class>
+		<desc>编辑站点栏目</desc>
+	</function>
+	<function id="9019913">
+		<class>com.thinkive.plat.function.Function9019913</class>
+		<desc>保存SEO设置</desc>
+	</function>
+	<function id="9019916">
+		<class>com.thinkive.plat.function.Function9019916</class>
+		<desc>新增ArticleExtendInfo</desc>
+	</function>
+	<function id="9019917">
+		<class>com.thinkive.plat.function.Function9019917</class>
+		<desc>修改ArticleExtendInfo</desc>
+	</function>
+	<function id="9019919">
+		<class>com.thinkive.plat.function.Function9019919</class>
+		<desc>动态生成字段代码列表</desc>
+	</function>
+	<function id="9019210">
+		<class>com.thinkive.plat.function.Function9019210</class>
+		<desc>增加用户到角色</desc>
+	</function>
+	<function id="9019212">
+		<class>com.thinkive.plat.function.Function9019212</class>
+		<desc>查询角色站点文章栏目树权限</desc>
+	</function>
+	<function id="9019213">
+		<class>com.thinkive.plat.function.Function9019213</class>
+		<desc>修改角色站点文章权限</desc>
+	</function>
+	<function id="9019217">
+		<class>com.thinkive.plat.function.Function9019217</class>
+		<desc>加载角色栏目权限功能树</desc>
+	</function>
+	<function id="9019219">
+		<class>com.thinkive.plat.function.Function9019219</class>
+		<desc>加载角色栏目权限功能树数据</desc>
+	</function>
+	<function id="9019218">
+		<class>com.thinkive.plat.function.Function9019218</class>
+		<desc>修改角色系统栏目权限</desc>
+	</function>
+	<function id="901932">
+		<class>com.thinkive.plat.function.Function901932</class>
+		<desc>删除栏目</desc>
+	</function>
+	<function id="901933">
+		<class>com.thinkive.plat.function.Function901933</class>
+		<desc>添加栏目</desc>
+	</function>
+	<function id="901934">
+		<class>com.thinkive.plat.function.Function901934</class>
+		<desc>编辑栏目</desc>
+	</function>
+	<function id="901935">
+		<class>com.thinkive.plat.function.Function901935</class>
+		<desc>查看单个系统栏目信息</desc>
+	</function>
+	<function id="901936">
+		<class>com.thinkive.plat.function.Function901936</class>
+		<desc>得到要发布的栏目是否存在模板</desc>
+	</function>
+	<function id="901937">
+		<class>com.thinkive.plat.function.Function901937</class>
+		<desc>得到要发布的子栏目集合</desc>
+	</function>
+	<function id="901939">
+		<class>com.thinkive.plat.function.Function901939</class>
+		<desc>刷新子栏目数</desc>
+	</function>
+	<function id="90191110">
+		<class>com.thinkive.plat.function.Function90191110</class>
+		<desc>修改单个文章</desc>
+	</function>
+	<function id="9019112">
+		<class>com.thinkive.plat.function.Function9019112</class>
+		<desc>添加文章</desc>
+	</function>
+	<function id="9019114">
+		<class>com.thinkive.plat.function.Function9019114</class>
+		<desc>删除文章</desc>
+	</function>
+	<function id="9019117">
+		<class>com.thinkive.plat.function.Function9019117</class>
+		<desc>发布本栏目</desc>
+	</function>
+	<function id="9019118">
+		<class>com.thinkive.plat.function.Function9019118</class>
+		<desc>发布当前及所有子栏目</desc>
+	</function>
+	<function id="9019119">
+		<class>com.thinkive.plat.function.Function9019119</class>
+		<desc>重新发布子栏目文章</desc>
+	</function>
+	<function id="9019120">
+		<class>com.thinkive.plat.function.Function9019120</class>
+		<desc>发布其他栏目</desc>
+	</function>
+	<function id="901943">
+		<class>com.thinkive.plat.function.Function901943</class>
+		<desc>删除字典类型</desc>
+	</function>
+	<function id="901953">
+		<class>com.thinkive.plat.function.Function901953</class>
+		<desc>测试</desc>
+	</function>
+	<function id="9019113">
+		<class>com.thinkive.plat.function.Function9019113</class>
+		<desc>查单个文章</desc>
+	</function>
+	<function id="9019115">
+		<class>com.thinkive.plat.function.Function9019115</class>
+		<desc>复制文章到其他栏目</desc>
+	</function>
+	<function id="90191111">
+		<class>com.thinkive.plat.function.Function90191111</class>
+		<desc>查文章下级栏目</desc>
+	</function>
+	<function id="9019010">
+		<class>com.thinkive.plat.function.Function9019010</class>
+		<desc>添加发布计划</desc>
+	</function>
+	<function id="90191112">
+		<class>com.thinkive.plat.function.Function90191112</class>
+		<desc>发布文章</desc>
+	</function>
+	<function id="9019016">
+		<class>com.thinkive.plat.function.Function9019016</class>
+		<desc>查看单个栏目模板</desc>
+	</function>
+	<function id="9019023">
+		<class>com.thinkive.plat.function.Function9019023</class>
+		<desc>修改模板发布计划</desc>
+	</function>
+	<function id="9019024">
+		<class>com.thinkive.plat.function.Function9019024</class>
+		<desc>查询栏目id下的所有模板</desc>
+	</function>
+	<function id="9019022">
+		<class>com.thinkive.plat.function.Function9019022</class>
+		<desc>查询单个模板</desc>
+	</function>
+	<function id="9019021">
+		<class>com.thinkive.plat.function.Function9019021</class>
+		<desc>导入模板</desc>
+	</function>
+	<function id="9019134">
+		<class>com.thinkive.plat.function.Function9019134</class>
+		<desc>删除所选系统日志</desc>
+	</function>
+	<function id="9019133">
+		<class>com.thinkive.plat.function.Function9019133</class>
+		<desc>删除所有系统日志</desc>
+	</function>
+	<function id="9019027">
+		<class>com.thinkive.plat.function.Function9019027</class>
+		<desc>恢复历史模板内容</desc>
+	</function>
+	<function id="9019028">
+		<class>com.thinkive.plat.function.Function9019028</class>
+		<desc>更改单个栏目模板内容</desc>
+	</function>
+	<function id="901926">
+		<class>com.thinkive.plat.function.Function901926</class>
+		<desc>查询所有角色</desc>
+	</function>
+	<function id="901948">
+		<class>com.thinkive.plat.function.Function901948</class>
+		<desc>查询数据字典栏目树</desc>
+	</function>
+	<function id="901992">
+		<class>com.thinkive.plat.function.Function901992</class>
+		<desc>站点栏目管理查询下级站点栏目</desc>
+	</function>
+	<function id="901998">
+		<class>com.thinkive.plat.function.Function901998</class>
+		<desc>查询可转移的站点目录</desc>
+	</function>
+	<function id="901999">
+		<class>com.thinkive.plat.function.Function901999</class>
+		<desc>更改站点栏目路由值</desc>
+	</function>
+	<function id="901993">
+		<class>com.thinkive.plat.function.Function901993</class>
+		<desc>删除站点栏目</desc>
+	</function>
+	<function id="901994">
+		<class>com.thinkive.plat.function.Function901994</class>
+		<desc>更新站点子栏目数</desc>
+	</function>
+	<function id="901996">
+		<class>com.thinkive.plat.function.Function901996</class>
+		<desc>修改登陆用户密码</desc>
+	</function>
+	<function id="9019910">
+		<class>com.thinkive.plat.function.Function9019910</class>
+		<desc>修改登陆用户密码</desc>
+	</function>
+	<function id="9019911">
+		<class>com.thinkive.plat.function.Function9019911</class>
+		<desc>导入站点栏目</desc>
+	</function>
+	<function id="9019171">
+		<class>com.thinkive.plat.function.Function9019171</class>
+		<desc>查找模板分页</desc>
+	</function>
+	<function id="9019176">
+		<class>com.thinkive.plat.function.Function9019176</class>
+		<desc>查找历史流程分页</desc>
+	</function>
+	<function id="9019186">
+		<class>com.thinkive.plat.function.Function9019186</class>
+		<desc>根据leaveId 查找DataRow</desc>
+	</function>
+	<function id="9019187">
+		<class>com.thinkive.plat.function.Function9019187</class>
+		<desc>更新leave</desc>
+	</function>
+	<function id="9019188">
+		<class>com.thinkive.plat.function.Function9019188</class>
+		<desc>查找我的待审核任务</desc>
+	</function>
+	<!-- 系统平台用到的功能号结束 -->
+	
+</functions>

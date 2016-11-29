@@ -1,0 +1,192 @@
+2016-02-23 18:27:27 [com.thinkive.server.BaseFunction]-[DEBUG] ==========调用接口【901918】开始==========
+2016-02-23 18:27:28 [com.mchange.v2.log.MLog]-[INFO] MLog clients using log4j logging.
+2016-02-23 18:27:29 [com.mchange.v2.beans.BeansUtils]-[WARN] Property inaccessible for overwriting: password
+2016-02-23 18:27:29 [com.mchange.v2.c3p0.C3P0Registry]-[INFO] Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2016-02-23 18:27:29 [com.mchange.v2.c3p0.management.DynamicPooledDataSourceManagerMBean]-[DEBUG] MBean: com.mchange.v2.c3p0:type=PooledDataSource[1hgei9t9f3sjg4d1kd4h1q|feb48] registered.
+2016-02-23 18:27:29 [com.mchange.v2.c3p0.management.DynamicPooledDataSourceManagerMBean]-[DEBUG] MBean: com.mchange.v2.c3p0:type=PooledDataSource[1hgei9t9f3sjg4d1kd4h1q|feb48] unregistered, in order to be reregistered after update.
+2016-02-23 18:27:29 [com.mchange.v2.c3p0.management.DynamicPooledDataSourceManagerMBean]-[DEBUG] MBean: com.mchange.v2.c3p0:type=PooledDataSource[1hgei9t9f3sjg4d1kd4h1q|feb48] registered.
+2016-02-23 18:27:29 [com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource]-[INFO] Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@e98856ff [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@9a5ff6cc [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 10000, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hgei9t9f3sjg4d1kd4h1q|766a24, idleConnectionTestPeriod -> 3000, initialPoolSize -> 10, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 100, maxStatements -> 100, maxStatementsPerConnection -> 0, minPoolSize -> 10, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@50ce66a0 [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1hgei9t9f3sjg4d1kd4h1q|b8deef, jdbcUrl -> jdbc:oracle:thin:@10.3.158.13:1521:orcl, properties -> {user=******, password=******} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1hgei9t9f3sjg4d1kd4h1q|feb48, numHelperThreads -> 3 ]
+2016-02-23 18:27:29 [com.mchange.v2.resourcepool.BasicResourcePool]-[DEBUG] incremented pending_acquires: 1
+2016-02-23 18:27:29 [com.mchange.v2.resourcepool.BasicResourcePool]-[DEBUG] incremented pending_acquires: 2
+2016-02-23 18:27:29 [com.mchange.v2.resourcepool.BasicResourcePool]-[DEBUG] incremented pending_acquires: 3
+2016-02-23 18:27:29 [com.mchange.v2.resourcepool.BasicResourcePool]-[DEBUG] incremented pending_acquires: 4
+2016-02-23 18:27:29 [com.mchange.v2.resourcepool.BasicResourcePool]-[DEBUG] incremented pending_acquires: 5
+2016-02-23 18:27:29 [com.mchange.v2.resourcepool.BasicResourcePool]-[DEBUG] incremented pending_acquires: 6
+2016-02-23 18:27:29 [com.mchange.v2.resourcepool.BasicResourcePool]-[DEBUG] incremented pending_acquires: 7
+2016-02-23 18:27:29 [com.mchange.v2.resourcepool.BasicResourcePool]-[DEBUG] incremented pending_acquires: 8
+2016-02-23 18:27:29 [com.mchange.v2.resourcepool.BasicResourcePool]-[DEBUG] incremented pending_acquires: 9
+2016-02-23 18:27:29 [com.mchange.v2.resourcepool.BasicResourcePool]-[DEBUG] incremented pending_acquires: 10
+2016-02-23 18:27:29 [com.mchange.v2.resourcepool.BasicResourcePool]-[DEBUG] com.mchange.v2.resourcepool.BasicResourcePool@16f144c config: [start -> 10; min -> 10; max -> 100; inc -> 2; num_acq_attempts -> 30; acq_attempt_delay -> 1000; check_idle_resources_delay -> 3000000; mox_resource_age -> 0; max_idle_time -> 0; excess_max_idle_time -> 0; destroy_unreturned_resc_time -> 0; expiration_enforcement_delay -> 0; break_on_acquisition_failure -> false; debug_store_checkout_exceptions -> false]
+2016-02-23 18:27:29 [com.mchange.v2.resourcepool.BasicResourcePool]-[DEBUG] acquire test -- pool size: 0; target_pool_size: 10; desired target? 1
+2016-02-23 18:27:29 [com.mchange.v2.resourcepool.BasicResourcePool]-[DEBUG] awaitAvailable(): [unknown]
+2016-02-23 18:27:29 [com.mchange.v2.resourcepool.BasicResourcePool]-[DEBUG] trace com.mchange.v2.resourcepool.BasicResourcePool@16f144c [managed: 0, unused: 0, excluded: 0]
+2016-02-23 18:27:30 [com.mchange.v2.c3p0.stmt.GooGooStatementCache]-[DEBUG] checkinAll(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 0; checked out: 0; num connections: 0; num keys: 0
+2016-02-23 18:27:30 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool]-[DEBUG] com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@21e554.acquireResource() returning. 
+2016-02-23 18:27:30 [com.mchange.v2.resourcepool.BasicResourcePool]-[DEBUG] trace com.mchange.v2.resourcepool.BasicResourcePool@16f144c [managed: 1, unused: 1, excluded: 0]
+2016-02-23 18:27:30 [com.mchange.v2.resourcepool.BasicResourcePool]-[DEBUG] decremented pending_acquires: 9
+2016-02-23 18:27:30 [com.mchange.v2.resourcepool.BasicResourcePool]-[DEBUG] trace com.mchange.v2.resourcepool.BasicResourcePool@16f144c [managed: 1, unused: 0, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@126f827)
+2016-02-23 18:27:30 [com.mchange.v2.c3p0.stmt.GooGooStatementCache]-[DEBUG] checkinAll(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 0; checked out: 0; num connections: 0; num keys: 0
+2016-02-23 18:27:30 [com.mchange.v2.resourcepool.BasicResourcePool]-[DEBUG] trace com.mchange.v2.resourcepool.BasicResourcePool@16f144c [managed: 1, unused: 0, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@126f827)
+2016-02-23 18:27:30 [com.mchange.v2.resourcepool.BasicResourcePool]-[DEBUG] acquire test -- pool size: 1; target_pool_size: 10; desired target? 2
+2016-02-23 18:27:30 [com.mchange.v2.resourcepool.BasicResourcePool]-[DEBUG] awaitAvailable(): com.mchange.v2.c3p0.impl.NewPooledConnection@126f827
+2016-02-23 18:27:30 [com.mchange.v2.resourcepool.BasicResourcePool]-[DEBUG] trace com.mchange.v2.resourcepool.BasicResourcePool@16f144c [managed: 1, unused: 0, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@126f827)
+2016-02-23 18:27:30 [com.mchange.v2.c3p0.stmt.GooGooStatementCache]-[DEBUG] checkinAll(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 0; checked out: 0; num connections: 0; num keys: 0
+2016-02-23 18:27:30 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool]-[DEBUG] com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@21e554.acquireResource() returning. 
+2016-02-23 18:27:30 [com.mchange.v2.resourcepool.BasicResourcePool]-[DEBUG] trace com.mchange.v2.resourcepool.BasicResourcePool@16f144c [managed: 2, unused: 1, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@126f827)
+2016-02-23 18:27:30 [com.mchange.v2.resourcepool.BasicResourcePool]-[DEBUG] decremented pending_acquires: 8
+2016-02-23 18:27:30 [com.mchange.v2.resourcepool.BasicResourcePool]-[DEBUG] trace com.mchange.v2.resourcepool.BasicResourcePool@16f144c [managed: 2, unused: 0, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@126f827)
+2016-02-23 18:27:30 [com.mchange.v2.c3p0.stmt.GooGooStatementCache]-[DEBUG] checkinAll(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 0; checked out: 0; num connections: 0; num keys: 0
+2016-02-23 18:27:30 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool]-[DEBUG] com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@21e554.acquireResource() returning. 
+2016-02-23 18:27:30 [com.mchange.v2.resourcepool.BasicResourcePool]-[DEBUG] trace com.mchange.v2.resourcepool.BasicResourcePool@16f144c [managed: 3, unused: 1, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@126f827)
+2016-02-23 18:27:30 [com.mchange.v2.resourcepool.BasicResourcePool]-[DEBUG] decremented pending_acquires: 7
+2016-02-23 18:27:30 [com.thinkive.base.jdbc.session.Impl.SessionImpl]-[DEBUG] 开始执行 [sql= SELECT USER_ID,LOGIN_ID,NAME,PASSWORD,RANDOM_NO,STATE,IS_SYSTEM,LOGIN_TIMES FROM T_PLAT_USER WHERE LOGIN_ID = ?]
+2016-02-23 18:27:30 [com.mchange.v2.c3p0.stmt.GooGooStatementCache]-[DEBUG] checkinAll(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 0; checked out: 0; num connections: 0; num keys: 0
+2016-02-23 18:27:30 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool]-[DEBUG] com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@21e554.acquireResource() returning. 
+2016-02-23 18:27:30 [com.mchange.v2.resourcepool.BasicResourcePool]-[DEBUG] trace com.mchange.v2.resourcepool.BasicResourcePool@16f144c [managed: 4, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@126f827)
+2016-02-23 18:27:30 [com.mchange.v2.resourcepool.BasicResourcePool]-[DEBUG] decremented pending_acquires: 6
+2016-02-23 18:27:30 [com.mchange.v2.c3p0.stmt.GooGooStatementCache]-[DEBUG] checkinAll(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 0; checked out: 0; num connections: 0; num keys: 0
+2016-02-23 18:27:30 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool]-[DEBUG] com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@21e554.acquireResource() returning. 
+2016-02-23 18:27:30 [com.mchange.v2.resourcepool.BasicResourcePool]-[DEBUG] trace com.mchange.v2.resourcepool.BasicResourcePool@16f144c [managed: 5, unused: 3, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@126f827)
+2016-02-23 18:27:30 [com.mchange.v2.resourcepool.BasicResourcePool]-[DEBUG] decremented pending_acquires: 5
+2016-02-23 18:27:30 [com.mchange.v2.c3p0.stmt.GooGooStatementCache]-[DEBUG] checkinAll(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 0; checked out: 0; num connections: 0; num keys: 0
+2016-02-23 18:27:30 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool]-[DEBUG] com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@21e554.acquireResource() returning. 
+2016-02-23 18:27:30 [com.mchange.v2.resourcepool.BasicResourcePool]-[DEBUG] trace com.mchange.v2.resourcepool.BasicResourcePool@16f144c [managed: 6, unused: 4, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@126f827)
+2016-02-23 18:27:30 [com.mchange.v2.resourcepool.BasicResourcePool]-[DEBUG] decremented pending_acquires: 4
+2016-02-23 18:27:30 [com.mchange.v2.c3p0.stmt.GooGooStatementCache]-[DEBUG] checkinAll(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 0; checked out: 0; num connections: 0; num keys: 0
+2016-02-23 18:27:30 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool]-[DEBUG] com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@21e554.acquireResource() returning. 
+2016-02-23 18:27:30 [com.mchange.v2.resourcepool.BasicResourcePool]-[DEBUG] trace com.mchange.v2.resourcepool.BasicResourcePool@16f144c [managed: 7, unused: 5, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@126f827)
+2016-02-23 18:27:30 [com.mchange.v2.resourcepool.BasicResourcePool]-[DEBUG] decremented pending_acquires: 3
+2016-02-23 18:27:30 [com.mchange.v2.c3p0.stmt.GooGooStatementCache]-[DEBUG] checkinAll(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 0; checked out: 0; num connections: 0; num keys: 0
+2016-02-23 18:27:30 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool]-[DEBUG] com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@21e554.acquireResource() returning. 
+2016-02-23 18:27:30 [com.mchange.v2.resourcepool.BasicResourcePool]-[DEBUG] trace com.mchange.v2.resourcepool.BasicResourcePool@16f144c [managed: 8, unused: 6, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@126f827)
+2016-02-23 18:27:30 [com.mchange.v2.resourcepool.BasicResourcePool]-[DEBUG] decremented pending_acquires: 2
+2016-02-23 18:27:30 [com.mchange.v2.c3p0.stmt.GooGooStatementCache]-[DEBUG] checkinAll(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 0; checked out: 0; num connections: 0; num keys: 0
+2016-02-23 18:27:30 [com.mchange.v2.c3p0.stmt.GooGooStatementCache]-[DEBUG] checkinAll(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 0; checked out: 0; num connections: 0; num keys: 0
+2016-02-23 18:27:30 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool]-[DEBUG] com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@21e554.acquireResource() returning. 
+2016-02-23 18:27:30 [com.mchange.v2.c3p0.stmt.GooGooStatementCache]-[DEBUG] checkinAll(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 0; checked out: 0; num connections: 0; num keys: 0
+2016-02-23 18:27:30 [com.mchange.v2.resourcepool.BasicResourcePool]-[DEBUG] trace com.mchange.v2.resourcepool.BasicResourcePool@16f144c [managed: 9, unused: 8, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@126f827)
+2016-02-23 18:27:30 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool]-[DEBUG] com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@21e554.acquireResource() returning. 
+2016-02-23 18:27:30 [com.mchange.v2.resourcepool.BasicResourcePool]-[DEBUG] decremented pending_acquires: 1
+2016-02-23 18:27:30 [com.mchange.v2.resourcepool.BasicResourcePool]-[DEBUG] trace com.mchange.v2.resourcepool.BasicResourcePool@16f144c [managed: 10, unused: 9, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@126f827)
+2016-02-23 18:27:30 [com.mchange.v2.resourcepool.BasicResourcePool]-[DEBUG] decremented pending_acquires: 0
+2016-02-23 18:27:30 [com.mchange.v2.c3p0.stmt.GooGooStatementCache]-[DEBUG] cxnStmtMgr.statementSet( oracle.jdbc.driver.T4CConnection@3a9bba ).size(): 1
+2016-02-23 18:27:30 [com.mchange.v2.c3p0.stmt.GooGooStatementCache]-[DEBUG] checkoutStatement: com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 1; checked out: 1; num connections: 1; num keys: 1
+2016-02-23 18:27:30 [com.thinkive.base.jdbc.session.Impl.SessionImpl]-[DEBUG] 执行完成 [time=520 millisecond]
+2016-02-23 18:27:30 [com.mchange.v2.c3p0.stmt.GooGooStatementCache]-[DEBUG] checkinStatement(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 1; checked out: 0; num connections: 1; num keys: 1
+2016-02-23 18:27:30 [com.mchange.v2.c3p0.stmt.GooGooStatementCache]-[DEBUG] checkinAll(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 1; checked out: 0; num connections: 1; num keys: 1
+2016-02-23 18:27:30 [com.mchange.v2.resourcepool.BasicResourcePool]-[DEBUG] trace com.mchange.v2.resourcepool.BasicResourcePool@16f144c [managed: 10, unused: 9, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@126f827)
+2016-02-23 18:27:30 [com.mchange.v2.c3p0.stmt.GooGooStatementCache]-[DEBUG] checkinAll(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 1; checked out: 0; num connections: 1; num keys: 1
+2016-02-23 18:27:30 [com.thinkive.server.BaseFunction]-[INFO] 调用功能号901918花费时间:3365
+2016-02-23 18:27:30 [com.thinkive.server.BaseFunction]-[DEBUG] ==========调用接口【901900】开始==========
+2016-02-23 18:27:30 [com.mchange.v2.resourcepool.BasicResourcePool]-[DEBUG] trace com.mchange.v2.resourcepool.BasicResourcePool@16f144c [managed: 10, unused: 9, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@126f827)
+2016-02-23 18:27:30 [com.thinkive.base.jdbc.session.Impl.SessionImpl]-[DEBUG] 开始执行 [sql= SELECT FUNC_NO FROM T_PLAT_CATALOG_FUNCTION WHERE IS_RIGHTS = 1]
+2016-02-23 18:27:30 [com.mchange.v2.c3p0.stmt.GooGooStatementCache]-[DEBUG] cxnStmtMgr.statementSet( oracle.jdbc.driver.T4CConnection@3a9bba ).size(): 2
+2016-02-23 18:27:30 [com.mchange.v2.c3p0.stmt.GooGooStatementCache]-[DEBUG] checkoutStatement: com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 2; checked out: 1; num connections: 1; num keys: 2
+2016-02-23 18:27:30 [com.thinkive.base.jdbc.session.Impl.SessionImpl]-[DEBUG] 执行完成 [time=17 millisecond]
+2016-02-23 18:27:30 [com.mchange.v2.c3p0.stmt.GooGooStatementCache]-[DEBUG] checkinStatement(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 2; checked out: 0; num connections: 1; num keys: 2
+2016-02-23 18:27:30 [com.mchange.v2.c3p0.stmt.GooGooStatementCache]-[DEBUG] checkinAll(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 2; checked out: 0; num connections: 1; num keys: 2
+2016-02-23 18:27:30 [com.mchange.v2.resourcepool.BasicResourcePool]-[DEBUG] trace com.mchange.v2.resourcepool.BasicResourcePool@16f144c [managed: 10, unused: 9, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@126f827)
+2016-02-23 18:27:30 [com.mchange.v2.c3p0.stmt.GooGooStatementCache]-[DEBUG] checkinAll(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 2; checked out: 0; num connections: 1; num keys: 2
+2016-02-23 18:27:30 [com.thinkive.server.BaseFunction]-[INFO] 调用功能号901900花费时间:24
+2016-02-23 18:27:30 [com.thinkive.server.BaseFunction]-[DEBUG] ==========调用接口【901900】开始==========
+2016-02-23 18:27:30 [com.mchange.v2.resourcepool.BasicResourcePool]-[DEBUG] trace com.mchange.v2.resourcepool.BasicResourcePool@16f144c [managed: 10, unused: 9, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@126f827)
+2016-02-23 18:27:30 [com.thinkive.base.jdbc.session.Impl.SessionImpl]-[DEBUG] 开始执行 [sql= SELECT CATALOG_NO_LIST FROM T_PLAT_ROLE_CATALOG_RIGHTS WHERE ROLENO IN (SELECT ROLE_NO FROM T_PLAT_ROLE_USER WHERE USER_ID = 1)]
+2016-02-23 18:27:30 [com.mchange.v2.c3p0.stmt.GooGooStatementCache]-[DEBUG] cxnStmtMgr.statementSet( oracle.jdbc.driver.T4CConnection@3a9bba ).size(): 3
+2016-02-23 18:27:30 [com.mchange.v2.c3p0.stmt.GooGooStatementCache]-[DEBUG] checkoutStatement: com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 3; checked out: 1; num connections: 1; num keys: 3
+2016-02-23 18:27:30 [com.thinkive.base.jdbc.session.Impl.SessionImpl]-[DEBUG] 执行完成 [time=17 millisecond]
+2016-02-23 18:27:30 [com.mchange.v2.c3p0.stmt.GooGooStatementCache]-[DEBUG] checkinStatement(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 3; checked out: 0; num connections: 1; num keys: 3
+2016-02-23 18:27:30 [com.mchange.v2.c3p0.stmt.GooGooStatementCache]-[DEBUG] checkinAll(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 3; checked out: 0; num connections: 1; num keys: 3
+2016-02-23 18:27:30 [com.mchange.v2.resourcepool.BasicResourcePool]-[DEBUG] trace com.mchange.v2.resourcepool.BasicResourcePool@16f144c [managed: 10, unused: 9, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@126f827)
+2016-02-23 18:27:30 [com.mchange.v2.c3p0.stmt.GooGooStatementCache]-[DEBUG] checkinAll(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 3; checked out: 0; num connections: 1; num keys: 3
+2016-02-23 18:27:30 [com.thinkive.server.BaseFunction]-[INFO] 调用功能号901900花费时间:19
+2016-02-23 18:27:30 [com.thinkive.server.BaseFunction]-[DEBUG] ==========调用接口【901900】开始==========
+2016-02-23 18:27:30 [com.mchange.v2.resourcepool.BasicResourcePool]-[DEBUG] trace com.mchange.v2.resourcepool.BasicResourcePool@16f144c [managed: 10, unused: 9, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@126f827)
+2016-02-23 18:27:30 [com.thinkive.base.jdbc.session.Impl.SessionImpl]-[DEBUG] 开始执行 [sql= SELECT FUNCTION_LIST FROM T_PLAT_ROLE_FUNCTION_RIGHTS WHERE ROLENO IN (SELECT ROLE_NO FROM T_PLAT_ROLE_USER WHERE USER_ID = 1)]
+2016-02-23 18:27:30 [com.mchange.v2.c3p0.stmt.GooGooStatementCache]-[DEBUG] cxnStmtMgr.statementSet( oracle.jdbc.driver.T4CConnection@3a9bba ).size(): 4
+2016-02-23 18:27:30 [com.mchange.v2.c3p0.stmt.GooGooStatementCache]-[DEBUG] checkoutStatement: com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 4; checked out: 1; num connections: 1; num keys: 4
+2016-02-23 18:27:30 [com.thinkive.base.jdbc.session.Impl.SessionImpl]-[DEBUG] 执行完成 [time=19 millisecond]
+2016-02-23 18:27:30 [com.mchange.v2.c3p0.stmt.GooGooStatementCache]-[DEBUG] checkinStatement(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 4; checked out: 0; num connections: 1; num keys: 4
+2016-02-23 18:27:30 [com.mchange.v2.c3p0.stmt.GooGooStatementCache]-[DEBUG] checkinAll(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 4; checked out: 0; num connections: 1; num keys: 4
+2016-02-23 18:27:30 [com.mchange.v2.resourcepool.BasicResourcePool]-[DEBUG] trace com.mchange.v2.resourcepool.BasicResourcePool@16f144c [managed: 10, unused: 9, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@126f827)
+2016-02-23 18:27:30 [com.mchange.v2.c3p0.stmt.GooGooStatementCache]-[DEBUG] checkinAll(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 4; checked out: 0; num connections: 1; num keys: 4
+2016-02-23 18:27:30 [com.thinkive.server.BaseFunction]-[INFO] 调用功能号901900花费时间:20
+2016-02-23 18:27:30 [com.thinkive.server.BaseFunction]-[DEBUG] ==========调用接口【901900】开始==========
+2016-02-23 18:27:30 [com.mchange.v2.resourcepool.BasicResourcePool]-[DEBUG] trace com.mchange.v2.resourcepool.BasicResourcePool@16f144c [managed: 10, unused: 9, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@126f827)
+2016-02-23 18:27:30 [com.thinkive.base.jdbc.session.Impl.SessionImpl]-[DEBUG] 开始执行 [sql= SELECT CATALOG_ID_LIST FROM T_ROLE_CATALOG_RIGHT WHERE ROLE_NO IN (SELECT ROLE_NO FROM T_PLAT_ROLE_USER WHERE USER_ID = 1)]
+2016-02-23 18:27:30 [com.mchange.v2.c3p0.stmt.GooGooStatementCache]-[DEBUG] cxnStmtMgr.statementSet( oracle.jdbc.driver.T4CConnection@3a9bba ).size(): 5
+2016-02-23 18:27:30 [com.mchange.v2.c3p0.stmt.GooGooStatementCache]-[DEBUG] checkoutStatement: com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 5; checked out: 1; num connections: 1; num keys: 5
+2016-02-23 18:27:30 [com.thinkive.base.jdbc.session.Impl.SessionImpl]-[DEBUG] 执行完成 [time=15 millisecond]
+2016-02-23 18:27:30 [com.mchange.v2.c3p0.stmt.GooGooStatementCache]-[DEBUG] checkinStatement(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 5; checked out: 0; num connections: 1; num keys: 5
+2016-02-23 18:27:30 [com.mchange.v2.c3p0.stmt.GooGooStatementCache]-[DEBUG] checkinAll(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 5; checked out: 0; num connections: 1; num keys: 5
+2016-02-23 18:27:30 [com.mchange.v2.resourcepool.BasicResourcePool]-[DEBUG] trace com.mchange.v2.resourcepool.BasicResourcePool@16f144c [managed: 10, unused: 9, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@126f827)
+2016-02-23 18:27:30 [com.thinkive.server.BaseFunction]-[INFO] 调用功能号901900花费时间:18
+2016-02-23 18:27:30 [com.mchange.v2.c3p0.stmt.GooGooStatementCache]-[DEBUG] checkinAll(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 5; checked out: 0; num connections: 1; num keys: 5
+2016-02-23 18:27:31 [com.thinkive.server.BaseFunction]-[DEBUG] ==========调用接口【901921】开始==========
+2016-02-23 18:27:31 [com.mchange.v2.resourcepool.BasicResourcePool]-[DEBUG] trace com.mchange.v2.resourcepool.BasicResourcePool@16f144c [managed: 10, unused: 9, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@126f827)
+2016-02-23 18:27:31 [com.thinkive.base.jdbc.session.Impl.SessionImpl]-[DEBUG] 开始执行 [sql= update T_PLAT_USER set login_times=?,last_time=? where user_id=?]
+2016-02-23 18:27:31 [com.mchange.v2.c3p0.stmt.GooGooStatementCache]-[DEBUG] cxnStmtMgr.statementSet( oracle.jdbc.driver.T4CConnection@3a9bba ).size(): 6
+2016-02-23 18:27:31 [com.mchange.v2.c3p0.stmt.GooGooStatementCache]-[DEBUG] checkoutStatement: com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 6; checked out: 1; num connections: 1; num keys: 6
+2016-02-23 18:27:31 [com.thinkive.base.jdbc.session.Impl.SessionImpl]-[DEBUG] 执行完成 [time=19 millisecond]
+2016-02-23 18:27:31 [com.mchange.v2.c3p0.stmt.GooGooStatementCache]-[DEBUG] checkinStatement(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 6; checked out: 0; num connections: 1; num keys: 6
+2016-02-23 18:27:31 [com.mchange.v2.c3p0.stmt.GooGooStatementCache]-[DEBUG] checkinAll(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 6; checked out: 0; num connections: 1; num keys: 6
+2016-02-23 18:27:31 [com.mchange.v2.resourcepool.BasicResourcePool]-[DEBUG] trace com.mchange.v2.resourcepool.BasicResourcePool@16f144c [managed: 10, unused: 9, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@126f827)
+2016-02-23 18:27:31 [com.mchange.v2.c3p0.stmt.GooGooStatementCache]-[DEBUG] checkinAll(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 6; checked out: 0; num connections: 1; num keys: 6
+2016-02-23 18:27:31 [com.thinkive.server.BaseFunction]-[INFO] 调用功能号901921花费时间:20
+2016-02-23 18:27:32 [com.thinkive.server.BaseFunction]-[DEBUG] ==========调用接口【901901】开始==========
+2016-02-23 18:27:32 [com.mchange.v2.resourcepool.BasicResourcePool]-[DEBUG] trace com.mchange.v2.resourcepool.BasicResourcePool@16f144c [managed: 10, unused: 9, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@126f827)
+2016-02-23 18:27:32 [com.thinkive.base.jdbc.session.Impl.SessionImpl]-[DEBUG] 开始执行 [sql= SELECT CATALOG_ID as ID,PARENT_ID as PID,NAME,LINK_URL,ROUTE,case when CHILDRENNUM > 0 then 'true' else 'false' end as isparent FROM T_PLAT_CATALOG WHERE STATE=1 AND  PARENT_ID = ? ORDER BY ORDERLINE ASC ]
+2016-02-23 18:27:32 [com.mchange.v2.c3p0.stmt.GooGooStatementCache]-[DEBUG] cxnStmtMgr.statementSet( oracle.jdbc.driver.T4CConnection@3a9bba ).size(): 7
+2016-02-23 18:27:32 [com.mchange.v2.c3p0.stmt.GooGooStatementCache]-[DEBUG] checkoutStatement: com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 7; checked out: 1; num connections: 1; num keys: 7
+2016-02-23 18:27:32 [com.thinkive.base.jdbc.session.Impl.SessionImpl]-[DEBUG] 执行完成 [time=232 millisecond]
+2016-02-23 18:27:32 [com.mchange.v2.c3p0.stmt.GooGooStatementCache]-[DEBUG] checkinStatement(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 7; checked out: 0; num connections: 1; num keys: 7
+2016-02-23 18:27:32 [com.mchange.v2.c3p0.stmt.GooGooStatementCache]-[DEBUG] checkinAll(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 7; checked out: 0; num connections: 1; num keys: 7
+2016-02-23 18:27:32 [com.mchange.v2.resourcepool.BasicResourcePool]-[DEBUG] trace com.mchange.v2.resourcepool.BasicResourcePool@16f144c [managed: 10, unused: 9, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@126f827)
+2016-02-23 18:27:32 [com.thinkive.server.BaseFunction]-[INFO] 调用功能号901901花费时间:236
+2016-02-23 18:27:32 [com.mchange.v2.c3p0.stmt.GooGooStatementCache]-[DEBUG] checkinAll(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 7; checked out: 0; num connections: 1; num keys: 7
+2016-02-23 18:27:33 [com.thinkive.server.BaseFunction]-[DEBUG] ==========调用接口【901901】开始==========
+2016-02-23 18:27:33 [com.mchange.v2.resourcepool.BasicResourcePool]-[DEBUG] trace com.mchange.v2.resourcepool.BasicResourcePool@16f144c [managed: 10, unused: 9, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@126f827)
+2016-02-23 18:27:33 [com.thinkive.base.jdbc.session.Impl.SessionImpl]-[DEBUG] 开始执行 [sql= SELECT CATALOG_ID as ID,PARENT_ID as PID,NAME,LINK_URL,ROUTE,case when CHILDRENNUM > 0 then 'true' else 'false' end as isparent FROM T_PLAT_CATALOG WHERE STATE=1 AND  PARENT_ID = ? ORDER BY ORDERLINE ASC ]
+2016-02-23 18:27:33 [com.mchange.v2.c3p0.stmt.GooGooStatementCache]-[DEBUG] com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache ----> CACHE HIT
+2016-02-23 18:27:33 [com.mchange.v2.c3p0.stmt.GooGooStatementCache]-[DEBUG] checkoutStatement: com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 7; checked out: 1; num connections: 1; num keys: 7
+2016-02-23 18:27:33 [com.thinkive.base.jdbc.session.Impl.SessionImpl]-[DEBUG] 执行完成 [time=6 millisecond]
+2016-02-23 18:27:33 [com.mchange.v2.c3p0.stmt.GooGooStatementCache]-[DEBUG] checkinStatement(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 7; checked out: 0; num connections: 1; num keys: 7
+2016-02-23 18:27:33 [com.mchange.v2.c3p0.stmt.GooGooStatementCache]-[DEBUG] checkinAll(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 7; checked out: 0; num connections: 1; num keys: 7
+2016-02-23 18:27:33 [com.mchange.v2.resourcepool.BasicResourcePool]-[DEBUG] trace com.mchange.v2.resourcepool.BasicResourcePool@16f144c [managed: 10, unused: 9, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@126f827)
+2016-02-23 18:27:33 [com.mchange.v2.c3p0.stmt.GooGooStatementCache]-[DEBUG] checkinAll(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 7; checked out: 0; num connections: 1; num keys: 7
+2016-02-23 18:27:33 [com.thinkive.server.BaseFunction]-[INFO] 调用功能号901901花费时间:13
+2016-02-23 18:30:05 [com.thinkive.server.BaseFunction]-[DEBUG] ==========调用接口【901918】开始==========
+2016-02-23 18:30:05 [com.thinkive.server.BaseFunction]-[ERROR] 
+java.lang.NullPointerException
+	at com.thinkive.base.jdbc.connection.ConnManager.getConnection(ConnManager.java:44)
+	at com.thinkive.base.jdbc.session.SessionFactory.getSession(SessionFactory.java:31)
+	at com.thinkive.base.jdbc.JdbcTemplate.getSession(JdbcTemplate.java:48)
+	at com.thinkive.base.jdbc.JdbcTemplate.queryMap(JdbcTemplate.java:598)
+	at com.thinkive.plat.service.user.UserService.queryUser(UserService.java:40)
+	at com.thinkive.plat.function.Function901918.execute(Function901918.java:31)
+	at com.thinkive.server.BaseFunction.invoke(BaseFunction.java:59)
+	at Dispatcher.Invoke(Dispatcher.java:128)
+	at Dispatcher.invoke(Dispatcher.java:99)
+2016-02-23 18:30:16 [com.thinkive.server.BaseFunction]-[DEBUG] ==========调用接口【901918】开始==========
+2016-02-23 18:30:16 [com.thinkive.server.BaseFunction]-[ERROR] 
+java.lang.NullPointerException
+	at com.thinkive.base.jdbc.connection.ConnManager.getConnection(ConnManager.java:44)
+	at com.thinkive.base.jdbc.session.SessionFactory.getSession(SessionFactory.java:31)
+	at com.thinkive.base.jdbc.JdbcTemplate.getSession(JdbcTemplate.java:48)
+	at com.thinkive.base.jdbc.JdbcTemplate.queryMap(JdbcTemplate.java:598)
+	at com.thinkive.plat.service.user.UserService.queryUser(UserService.java:40)
+	at com.thinkive.plat.function.Function901918.execute(Function901918.java:31)
+	at com.thinkive.server.BaseFunction.invoke(BaseFunction.java:59)
+	at Dispatcher.Invoke(Dispatcher.java:128)
+	at Dispatcher.invoke(Dispatcher.java:99)
+2016-02-23 18:31:49 [com.thinkive.server.BaseFunction]-[DEBUG] ==========调用接口【901918】开始==========
+2016-02-23 18:31:49 [com.thinkive.server.BaseFunction]-[ERROR] 
+java.lang.NullPointerException
+	at com.thinkive.base.jdbc.connection.ConnManager.getConnection(ConnManager.java:44)
+	at com.thinkive.base.jdbc.session.SessionFactory.getSession(SessionFactory.java:31)
+	at com.thinkive.base.jdbc.JdbcTemplate.getSession(JdbcTemplate.java:48)
+	at com.thinkive.base.jdbc.JdbcTemplate.queryMap(JdbcTemplate.java:598)
+	at com.thinkive.plat.service.user.UserService.queryUser(UserService.java:40)
+	at com.thinkive.plat.function.Function901918.execute(Function901918.java:31)
+	at com.thinkive.server.BaseFunction.invoke(BaseFunction.java:59)
+	at Dispatcher.Invoke(Dispatcher.java:128)
+	at Dispatcher.invoke(Dispatcher.java:99)
